@@ -1,0 +1,616 @@
+body {
+    font-family: 'Lora', serif;
+    padding: 0px;
+    margin: 0px;
+background-color: whitesmoke;
+}
+
+:root {
+    --blue: #011936;
+    --orangered: #FE5F55;
+    --bluered: #69140E;
+
+}
+
+@-moz-document url-prefix() {
+    html,body{overflow: hidden ;}
+}
+
+::-webkit-scrollbar {
+    display:non ;
+}
+
+
+
+
+/*bottom styling*/
+/*random classes*/
+.b-r{
+    border: 1px solid red;
+}
+
+/***********************************************************random classes******************************************/
+.h-10{height: 10%;}
+.h-20{height: 20%;}
+.h-30{height: 30%;}
+.h-40{height: 40%;}
+.h-50{height: 50%;}
+.h-60{height: 60%;}
+.h-70{height: 70%;}
+.h-80{height: 80%;}
+.h-90{height: 90%;}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../img/bottom_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.reg-border {
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    transition: 1s ease-in-out;
+}
+
+/**********************************************************stylin contact section starts **********************************/
+.team-title-border{
+    background-color: #FE5F55;
+    width: 150px;
+    height: 3px;
+}
+.team-icon{
+    background-color: white;
+    height: 5vh;
+    margin-top: -50px;
+}
+
+
+
+.line1{
+    width:100px;
+    position:absolute;
+    background-color: var(--orangered);
+    
+    margin: 25px 10px 10px -120px;
+    border:2.5px solid red;
+    
+}
+.line2 {
+    width: 100px;
+    position: absolute;
+    background-color: var(--orangered);
+
+    margin: 25px 10px 10px 20px;
+    border: 2.5px solid red;
+
+}
+
+.contact-bg{
+    background-color: white;
+}
+/**********************************************************stylin for  contact section  ends **********************************/
+
+/**********************************************************stylin for  cars section **********************************/
+.cars-title-text{
+font-size: 75px !important;
+
+
+}
+.cars-p-text{
+    font-size: 25px;
+    color: red;
+}
+
+.d-cover-btn{
+    
+    font-size: 15px!important;
+
+}
+
+/**********************************************************stylin for  cars section **********************************/
+
+
+
+
+
+
+
+
+/***********************************************************random classes******************************************/
+/*header  title styling*/
+
+.parent-title {
+    height: 500px;
+    border:1px solid red;
+}
+
+.cars-title {
+
+    height: 700px;
+}
+
+
+.header-title-boder {
+    width: 400px;
+    height: 3px;
+    background-color: white;
+}
+
+.cars-title-boder {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+
+}
+
+.header-span {
+    transition: 2s ease-in-out;
+    color: red;
+    animation-name: headertitle;
+    animation-duration: 3s;
+
+}
+
+.header-the {
+    margin-left: 550px;
+}
+
+
+.h-address {
+    float: left;
+
+}
+
+.h-scoll {
+    position: fixed;
+    z-index: 1000;
+
+   
+    
+}
+.scoll-bar-down{
+     width:0.7vh;
+    height: 10vh!important;
+    background-color:grey!important;
+    margin: 0px;
+    padding: 2px;
+    position: fixed;
+    z-index: 1000;
+    margin-top: -10vh;
+}   
+
+
+.moving-object{
+    height: 25%!important;
+    background-color:white;
+    width:3px;
+    animation-name:scroll;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.title-height {
+    height: 50%;
+}
+
+/*header  title styling*/
+
+/**********************************************************styling for  cars section************************************/
+.cars {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../img/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/**********************************************************styling for  cars section************************************/
+
+/**********************************************************styling for  teams section************************************/
+.teams{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../img/bg-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/**********************************************************styling for  teams section************************************/
+
+
+/**********************************************************styling for  sale cars section************************************/
+.salecars{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../img/bg-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/**********************************************************styling for  sale cars section************************************/
+/**********************************************************styling for  footer section************************************/
+
+
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url('../img/bottom2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/**********************************************************styling for  footer section************************************/
+
+/**********************************************************styling for  collection page starts ************************************/
+
+.coll-btn-side{
+    display: block;
+    background-color: #FE5F55;
+    width: 20px;
+    height: 5px;
+    position:absolute;
+    margin-right: -250;
+    margin-top: 10px;
+}
+
+
+.cars-card-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/img5.jpeg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    
+}
+.card{
+    cursor: pointer!important;
+}
+.car-title-border{
+  
+width: 100px;
+height: 5px;
+background-color: red;
+    transition: 1s ease-in-out;
+
+
+}
+/**********************************************************styling for  collection page ends************************************/
+
+
+
+
+
+
+
+@media (min-width: 370px) {
+/**********************************************************stylin for header section************************************/
+    .header-title-boder {
+        width: 20vh;
+        height: 3px;
+        font-size: 20px;
+        background-color: white;
+    }
+
+  
+    .header-title-text {
+        font-size: 20px !important;
+        
+    }
+
+    .title-height{
+        height: 50%;
+    }
+
+  
+.scroll-item {
+    border: 1px solid whitesmoke;
+    display: inline-block;
+
+    width: 15px!important;
+    height: 1px;
+   
+}
+
+
+
+.h-adress-height{
+    height: 30%;
+   
+}
+
+.h-add-text {
+    
+    font-size: 15px;
+}
+
+.sale-button:hover{
+    background-color: #FE5F55;
+    color:white;
+}
+/**********************************************************stylin for header section**********************************/
+
+
+/**********************************************************stylin for  cars section **********************************/
+.cars-title-text{
+font-size: 20px !important;
+
+
+}
+.cars-p-text{
+    font-size: 15px;
+}
+
+.d-cover-btn{
+    
+    font-size: 10px!important;
+
+}
+
+/**********************************************************stylin for  cars section **********************************/
+}
+
+
+
+
+
+@media (min-width: 576px) {
+   /**********************************************************stylin for header section**********************************/
+    .header-title-boder {
+        width: 30vh;
+        height: 3px;
+        
+        background-color: white;
+    }
+
+
+    .header-title-text {
+        font-size: 55px !important;
+        color: red;
+    }
+
+    .title-height {
+        height: 50%;
+    }
+
+    /*scroll button*/
+    .scroll-item {
+        border: 1px solid whitesmoke;
+        display: inline-block;
+
+        width: 15px !important;
+        height: 1px;
+
+    }
+
+    .h-adress-height {
+        height: 30%;
+        
+    }
+
+    .h-add-text {
+
+        font-size: 15px;
+    }
+/**********************************************************styling header section **********************************/
+
+
+/**********************************************************stylin for  cars section **********************************/
+.cars-title-text{
+font-size: 55px !important;
+
+
+}
+.cars-p-text{
+    font-size: 25px;
+    color: red;
+}
+
+.d-cover-btn{
+    
+    font-size: 15px!important;
+
+}
+
+/**********************************************************stylin for  cars section **********************************/
+}
+
+
+@media (min-width: 768px) {
+    
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .sale-button{
+       
+        border-radius: 10px;
+        border: 2px solid white!important;
+        animation-name:saleebtn;
+        transition: 1s ease-in-out;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+ }
+
+@media (min-width: 1200px) {
+  /**********************************************************stylin for header section **********************************/
+   .header-title-boder {
+       width: 30vh;
+       height: 3px;
+
+       background-color:white;
+   }
+
+
+   .header-title-text {
+       font-size: 75px !important;
+       
+   }
+
+   .title-height {
+       height: 50%;
+   }
+
+   /*scroll button*/
+   .scroll-item {
+       border: 1px solid whitesmoke;
+       display: inline-block;
+
+       width: 15px !important;
+       height: 1px;
+
+   }
+  
+
+   .h-adress-height {
+       height: 30%;
+      
+   }
+
+   .h-add-text {
+
+       font-size: 15px;
+   }
+/**********************************************************stylin for header section**********************************/
+
+
+/**********************************************************stylin contact section starts **********************************/
+.team-title-border{
+    background-color: #FE5F55;
+    width: 150px;
+    height: 3px;
+}
+.team-icon{
+    background-color: white;
+    height: 5vh;
+    margin-top: -50px;
+}
+
+
+
+.line1{
+    width:100px;
+    position:absolute;
+    background-color: var(--orangered);
+    
+    margin: 25px 10px 10px -120px;
+    border:2.5px solid red;
+    
+}
+.line2 {
+    width: 100px;
+    position: absolute;
+    background-color: var(--orangered);
+
+    margin: 25px 10px 10px 20px;
+    border: 2.5px solid red;
+
+}
+
+.contact-bg{
+    background-color: white;
+}
+/**********************************************************stylin for  contact section  ends **********************************/
+
+/**********************************************************stylin for  cars section **********************************/
+.cars-title-text{
+font-size: 75px !important;
+
+
+}
+.cars-p-text{
+    font-size: 25px;
+    color: red;
+}
+
+.d-cover-btn{
+    
+    font-size: 15px!important;
+
+}
+
+/**********************************************************stylin for  cars section **********************************/
+
+}
+
+
+
+/**/
+/*keyframes all are heree*/
+
+
+
+
+
+@keyframes headertitle {
+    from {
+        opacity: 0;
+        margin-top: -5px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+
+
+@keyframes scroll {
+    from {
+        margin-top: 0px;
+    }
+
+    to {
+
+        margin-top: 180px;
+    }
+}
+
+
+@keyframes saleebtn {
+    from {
+        padding: 0px;
+    }
+
+    to {
+
+        padding: 45px;
+
+    }
+}
+
+@keyframes saleebtn {
+    from {
+        opacity: 0;
+
+    }
+
+    to {
+        transition: 1s ease-in-out;
+        opacity: 1;
+
+    }
+}
+
